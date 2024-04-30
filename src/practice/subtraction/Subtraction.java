@@ -3,12 +3,12 @@ package practice.subtraction;
 public class Subtraction {
 
   public static void main(String[] args) {
-    System.out.println("303 Practice SBA 1 Division\n");
+    System.out.println("303 Practice SBA 3 Subtraction\n");
     substractionString("824");
   }
 
   private static void substractionString(String str) {
-    System.out.println("*********divisionString*********");
+    System.out.println("*********SubtractionString*********");
 
     char[] digitsArray = str.toCharArray();
     int result = Character.getNumericValue(digitsArray[0]);
